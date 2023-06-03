@@ -13,6 +13,8 @@ class MainAdapter(val taskList: List<Task>):RecyclerView.Adapter<MainAdapter.Mai
                 itemBinding.titleTv.text=task.title
                 itemBinding.timeTv.text=task.timestamp
             }
+
+
         }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
