@@ -15,6 +15,10 @@ class MainAdapter(val taskList: List<Task>):RecyclerView.Adapter<MainAdapter.Mai
             }
 
 
+
+
+
+
         }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
